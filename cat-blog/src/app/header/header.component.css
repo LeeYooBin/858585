@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 1.7rem 2rem;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2.5rem;
+}
+
+img {
+  width: 3.5rem;
+}
+
+input {
+  width: 100%;
+  background-color: var(--input);
+  padding: 1rem;
+  border: none;
+  color: white;
+  opacity: 0.8;
+  border-radius: .3rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+@media screen and (min-width: 760px) {
+  header {
+    padding: 1.7rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  header {
+    padding: 1.7rem 20rem;
+  }
+}
