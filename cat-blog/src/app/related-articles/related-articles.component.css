@@ -1,0 +1,23 @@
+section {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 760px) {
+  section {
+    padding: 1.5rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  section {
+    padding: 0;
+    width: 23vw;
+  }
+}
