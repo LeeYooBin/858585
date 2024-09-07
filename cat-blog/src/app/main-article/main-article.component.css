@@ -1,0 +1,75 @@
+.main-image {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.icon-image {
+  width: 3rem;
+}
+
+.title-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-wrapper {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+article {
+  padding: 0.2rem 2rem;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+button {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+  article, .title-wrapper {
+    padding: 1rem 10rem;
+  }
+
+  .main-image {
+    padding: 3rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  article, .title-wrapper {
+    padding: 0;
+  }
+
+  .main-image {
+    padding: 0;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  article {
+    font-size: 1.5rem;
+  }
+}
