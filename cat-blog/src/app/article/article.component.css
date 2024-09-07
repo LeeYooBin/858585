@@ -1,0 +1,22 @@
+a {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+img {
+  width: 10rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: .3rem;
+  color: #000;
+}
+
+p {
+  font-size: 1.2rem;
+}
