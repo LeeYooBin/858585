@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style/global.css" />
     <link rel="stylesheet" href="./src/style/components/hero-section.css" />
+    <link rel="stylesheet" href="./src/style/components/about.css" />
+    <link rel="stylesheet" href="./src/style/components/cta-section.css" />
+    <link rel="stylesheet" href="./src/style/components/testimony.css" />
+    <link rel="stylesheet" href="./src/style/components/footer.css" />
     <title>CSS Developer</title>
   </head>
   <body>
@@ -20,10 +24,59 @@
           A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do
           zero como desenvolver sites profissionais
         </p>
-        <button class="hero-section__button">
-          QUERO ME INSCREVER
-        </button>
+        <button class="hero-section__button">QUERO ME INSCREVER</button>
+      </section>
+      <section class="about">
+        <h2 class="subtitle">O QUE VOU APRENDER?</h2>
+        <p class="about__text">
+          Temos 3 módulos recheados de conteúdos do básico ao avançado para que
+          você aprenda a desenvolver sites profissionais utilizando somente HTML
+          e CSS: sem nenhuma biblioteca ou framework a mais.
+        </p>
+        <div class="about__module-wrapper">
+          <div class="about__module">
+            <span class="about__module-span">Módulo 01:&nbsp;</span>primeiros
+            passos com CSS
+          </div>
+          <div class="about__module">
+            <span class="about__module-span">Módulo 02:&nbsp;</span>trabalhando
+            com layouts no CSS
+          </div>
+          <div class="about__module">
+            <span class="about__module-span">Módulo 03:&nbsp;</span>refinando os
+            estilos CSS das nossas páginas
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <h2 class="cta-phrase">transforme o mundo com a gente</h2>
+      </section>
+      <section class="testimony">
+        <h2 class="subtitle">EVOLUA E ENCARE NOVOS DESAFIOS PROFISSIONAIS</h2>
+        <img
+          src="./src/assets/feedback.png"
+          alt="Imagem com feedbacks"
+          class="testimony__img"
+        />
+        <p class="testimony__text">
+          Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos
+          os dias dezenas de empresas acessam a nossa plataforma em busca dos
+          talentos mais criativos, dinâmicos e colaborativos, além do
+          conhecimento técnico. A nossa missão é te preparar para que você
+          conecte-se com as melhores oportunidades.
+        </p>
       </section>
     </main>
+    <footer>
+      <img src="./src/assets/dio.png" alt="DIO logo" class="footer__img" />
+      <p class="footer__text">
+        Acesse&nbsp;<a
+          href="https://web.dio.me"
+          target="_blank"
+          class="footer__link"
+          >dio.me</a
+        >&nbsp;e se cadastre agora
+      </p>
+    </footer>
   </body>
 </html>
