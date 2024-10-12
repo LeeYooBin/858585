@@ -1,0 +1,43 @@
+footer {
+  padding: 6rem 0;
+  background-color: var(--footer-background-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+footer p {
+  max-width: 70rem;
+  margin-bottom: 2.4rem;
+  z-index: 10;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+footer::before,
+footer::after {
+  content: "";
+  width: 30rem;
+  height: 20rem;
+  background: url("../../assets/images/footer/tape.svg") no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -3rem;
+}
+
+footer::before {
+  left: -5rem;
+  transform: rotateZ(-10deg);
+}
+
+footer::after {
+  right: -5rem;
+  transform: rotateZ(10deg);
+}
+
+footer img {
+  z-index: 5;
+}
