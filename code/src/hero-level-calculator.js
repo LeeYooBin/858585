@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 const hero = {
   name: prompt("Enter name: "),
   xp: parseInt(prompt("Enter experience: "))
-}
+};
 
 let level;
 
