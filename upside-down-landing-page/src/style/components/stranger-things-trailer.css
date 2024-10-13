@@ -1,0 +1,83 @@
+#section-stranger-things-trailer {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#section-stranger-things-trailer .section-texts {
+  width: 100%;
+  text-align: left;
+}
+
+#section-stranger-things-trailer .section-texts h2 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+#section-stranger-things-trailer .section-texts p {
+  font-size: 1.5rem;
+}
+
+#section-stranger-things-trailer .video-frame {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+#section-stranger-things-trailer .video-frame iframe {
+  position: relative;
+  width: 46rem;
+  height: 21.5rem;
+
+  width: 98%;
+  bottom: 1.7rem;
+  left: 2rem;
+  border: .2rem solid;
+  border-image: linear-gradient(
+    var(--primary-color),
+    var(--primary-color-contrast)
+  );
+  border-image-slice: 10;
+}
+
+@media screen and (min-width: 760px) {
+  #section-stranger-things-trailer {
+    width: 100%;
+    padding: 0 7rem;
+    flex-direction: row;
+  }
+
+  #section-stranger-things-trailer .section-texts {
+    width: 50%;
+    text-align: right;
+  }
+
+  #section-stranger-things-trailer .section-texts h2 {
+    max-width: 42.5rem;
+  }
+
+  #section-stranger-things-trailer .video-frame {
+    width: 25rem;
+    height: 15rem;
+  }
+
+  #section-stranger-things-trailer .video-frame iframe {
+    /* width: 46rem; */
+    width: 26rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  #section-stranger-things-trailer .video-frame {
+    width: 39rem;
+    height: 21.5rem;
+  }
+
+  #section-stranger-things-trailer .video-frame iframe {
+    /* width: 46rem; */
+    width: 40rem;
+    height: 21.5rem;
+  }
+}

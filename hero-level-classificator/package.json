@@ -1,0 +1,10 @@
+{
+  "name": "hero-level-classificator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "hero-level-classificator": "file:",
+    "prompt-sync": "^4.2.0"
+  }
+}

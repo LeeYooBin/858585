@@ -1,0 +1,41 @@
+.container {
+  max-width: 120rem;
+}
+
+#section-inverted-world {
+  align-items: center;
+  padding: 0 2rem;
+}
+
+#section-inverted-world .section-texts {
+  width: 50%;
+}
+
+#section-inverted-world .section-texts p {
+  font-size: 1.5rem;
+}
+
+#section-inverted-world .section-texts h2 {
+  max-width: 30rem;
+  margin-bottom: 1rem;
+}
+
+#section-inverted-world img {
+  width: 50%;
+}
+
+@media screen and (min-width: 760px) {
+  #section-inverted-world {
+    padding: 0 7rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  #section-inverted-world {
+    padding: 0 5rem;
+  }
+
+  #section-inverted-world img {
+    width: auto;
+  }
+}
